@@ -1,8 +1,32 @@
+.body {
+  width: 100%;
+}
+
 .widget-details .visible {
   display: block;
 }
+
 
 .widget-details .hidden {
   display: none;
 }
 
+.header {
+  text-align: center;
+  flex: content;
+  flex-direction :column;
+  position: relative;
+}
+
+.table {
+  border: 2px solid black;
+  border-color: black;
+  width: 500px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  flex: content;
+  flex-direction: column;
+  position:relative;
+
+}
