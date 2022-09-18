@@ -36,13 +36,13 @@ export function Game() {
           <td className="table"></td>
         </tr>
         <tr className="table">
-          <td className="table"></td>
-          <td className="table"></td>
-          <td className="table">
+          <td className="player-cells"></td>
+          <td className="player-cells"></td>
+          <td className="player-cells">
             <Player />
           </td>
-          <td className="table"></td>
-          <td className="table"></td>
+          <td className="player-cells"></td>
+          <td className="player-cells"></td>
         </tr>
       </table>
     </>
