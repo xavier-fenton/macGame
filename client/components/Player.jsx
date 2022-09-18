@@ -7,6 +7,7 @@ import playerTrigger from './playerTrigger'
 // setPlayer will call playerTrigger()
 // playerTrigger needs to contain an algorithm that changes the index position of Player.jsx
 // player.jsx in of itself should just return a div with an image inside it that has an event listener that gets called in game.jsx
+// ignore this line it is a test.
 
 export default async function player() {
   const playerImage = '../../server/public/images/elrond-network-egld.gif'
