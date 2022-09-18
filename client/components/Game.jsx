@@ -38,7 +38,9 @@ export function Game() {
         <tr className="table">
           <td className="table"></td>
           <td className="table"></td>
-          <td className="table"></td>
+          <td className="table">
+            <Player />
+          </td>
           <td className="table"></td>
           <td className="table"></td>
         </tr>
