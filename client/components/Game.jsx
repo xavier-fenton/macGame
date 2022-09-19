@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import Obstacle from './Obstacle'
-import Player from './Player'
-import PopUp from './Popup'
+// import Obstacle from './sub-components/Obstacle/Obstacle'
+import Player from './sub-components/player/Player'
+// import PopUp from './Popup'
 
 export function Game() {
   return (
@@ -36,13 +36,13 @@ export function Game() {
           <td className="table"></td>
         </tr>
         <tr className="table">
-          <td className="player-cells"></td>
-          <td className="player-cells"></td>
-          <td className="player-cells">
+          <td className="player-cell-one"></td>
+          <td className="player-cell-two"></td>
+          <td className="player-cell-three">
             <Player />
           </td>
-          <td className="player-cells"></td>
-          <td className="player-cells"></td>
+          <td className="player-cells-four"></td>
+          <td className="player-cell-five"></td>
         </tr>
       </table>
     </>
