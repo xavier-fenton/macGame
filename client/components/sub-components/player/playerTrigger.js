@@ -1,3 +1,8 @@
+// The cells return as HTML collections
+// Still needs logic to move up and down the array
+// Needs to access the cell which has mac
+// playerTrigger() should be exported and called in an event handler that changes the state with useEFffect()
+
 const firstCell = document.getElementsByClassName('player-cell-one')
 const seacondCell = document.getElementsByClassName('player-cell-two')
 const thirdCell = document.getElementsByClassName('player-cell-three')
@@ -7,26 +12,41 @@ const cells = [firstCell, seacondCell, thirdCell, fourthCell, fifthCell]
 
 console.log('cells: ', cells)
 
-// keycode for left arrowkey = 37
-// keycode for right arrowkey = 39
+export default function playerTrigger() {
+  for (let i = 0; i < cells.length; i++) {
+    const cell = cells[i]
+    console.log('cell: ', cell)
 
-async function trigger() {
-  try {
-    for (let i = 0; i < cells.length; i++) {
-      const cell = cells[i]
-      console.log('cell: ', cell)
+    document.onkeydown = keyHit
 
-      if (cell[i].innerHTML !== '') {
-        return <>{cell ? onkeydown() : onkeydown()}</>
+    function keyHit(e) {
+      if (e.keyCode == '37') {
+        console.log('left key hit!')
+      } else if (e.keyCode == '39') {
+        console.log('right key hit!')
       }
     }
-  } catch (error) {
-    console.error(error.message)
   }
 }
+playerTrigger()
 
-trigger()
+/*------------First attempt at keyboard event listener------*/
+
+// document.addEventListener('keyPress', keyPressHandler)
+// // document.addEventListener('keyup', keyUpHandler)
+
+// function keyPressHandler(e) {
+//   if (e.keyCode === '37')
+//     console.log('left arrow key hit!')
+//   } else if (e.keyCode === '39') {
+//     console.log('right arrow key hit!')
+//   } else {
+//     console.error(error.message)
+//   }
+// }
+
 /*----------First attempt at getting html elements--------*/
+
 // export default async function trigger() {
 //   try {
 //     const cells = Array(
