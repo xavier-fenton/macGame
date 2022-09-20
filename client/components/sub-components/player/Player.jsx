@@ -11,11 +11,10 @@ import playerTrigger from './playerTrigger'
 
 export default function player() {
   const playerImage = '/images/elrond-network-egld.gif'
-  const { player, setPlayer } = useState()
+  const [player, setPlayer] = useState()
   function handleKeyPress(event) {
     event.preventDefault()
     try {
-      // if(player.location === location) ??????????
       useEffect(() => {
         setPlayer(playerTrigger())
       }, [])

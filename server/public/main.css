@@ -31,7 +31,7 @@
 
 }
 
-.player-cells {
+.player-cell-one {
   border: 2px solid black;
   border-color: black;
   width: 500px;
@@ -43,6 +43,54 @@
   position:relative;
 }
 
+
+.player-cell-two {
+  border: 2px solid black;
+  border-color: black;
+  width: 500px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  flex: content;
+  flex-direction: column;
+  position:relative;
+}
+
+.player-cell-three {
+  border: 2px solid black;
+  border-color: black;
+  width: 500px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  flex: content;
+  flex-direction: column;
+  position:relative;
+}
+
+.player-cell-four {
+  border: 2px solid black;
+  border-color: black;
+  width: 500px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  flex: content;
+  flex-direction: column;
+  position:relative;
+}
+
+.player-cell-five {
+  border: 2px solid black;
+  border-color: black;
+  width: 500px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  flex: content;
+  flex-direction: column;
+  position:relative;
+}
 .player-image {
   height: 80px;
   width: 100px;
