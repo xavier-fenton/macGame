@@ -3,12 +3,12 @@
 // Needs to access the cell which has mac
 // playerTrigger() should be exported and called in an event handler that changes the state with useEFffect()
 
-const firstCell = document.getElementsByClassName('player-cell-one')
-const seacondCell = document.getElementsByClassName('player-cell-two')
-const thirdCell = document.getElementsByClassName('player-cell-three')
-const fourthCell = document.getElementsByClassName('player-cell-four')
-const fifthCell = document.getElementsByClassName('player-cell-five')
-const cells = [firstCell, seacondCell, thirdCell, fourthCell, fifthCell]
+// const firstCell = document.getElementsByClassName('player-cell-one')
+// const seacondCell = document.getElementsByClassName('player-cell-two')
+// const thirdCell = document.getElementsByClassName('player-cell-three')
+// const fourthCell = document.getElementsByClassName('player-cell-four')
+// const fifthCell = document.getElementsByClassName('player-cell-five')
+// const cells = [firstCell, seacondCell, thirdCell, fourthCell, fifthCell]
 // const cells = document.getElementsByTagName('td')
 
 console.log('cells: ', cells)
