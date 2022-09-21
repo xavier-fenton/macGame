@@ -24,13 +24,13 @@ export default function player() {
   }
   return (
     <>
-      <div className="player" onKeyPress={handleKeyPress}>
+      <section className="player" onKeyPress={handleKeyPress}>
         <img
           className="player-image"
           src={playerImage}
           alt="player-image"
         ></img>
-      </div>
+      </section>
     </>
   )
 }
