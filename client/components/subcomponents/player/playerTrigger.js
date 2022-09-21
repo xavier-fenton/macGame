@@ -16,7 +16,8 @@ export default function playerTrigger() {
     ) {
       console.log('left arrow key hit!')
       player[0].style.left = `${center - 10}px`
-    } else if (
+    }
+    if (
       (e.keyCode === '39' && player[0].style.left === `${center}px`) ||
       player[0].style.left > `${center}px`
     ) {
